@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(background.jpg);
+}
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #131313;
+    opacity: 0.75;
+    height: 60px;
+
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color:rgb(0, 98, 255);
+    
+    text-decoration-color: #ff0000;
+}
+#profilePhoto{
+    
+    height: 350px;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+    .rounded-image {
+  width: 200px;
+  height: 350px;
+  border-radius: 20px;
+  object-fit: cover; /* Ensures the image fits perfectly without stretching */
+  display: block;
+  align-self: center; /* Centers the image vertically within the div */
+  align-items: center; /* Centers the image horizontally within the div */
+  justify-content: center; /* Centers the image horizontally within the div */
+  filter: brightness(0.80)
+  
+  
+  
+
+}
+
+.rounded-image:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+  transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+  opacity: 0.9,0.5; /* Slightly reduces opacity on hover for a subtle effect */
+}
+.nameContent{
+    height: 100px;
+    width:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #b61b1b;
+    margin-top: 20px;
+}
+.nameContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+
+H1{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: #9ac9f1;
+}
+h1:hover{
+    color: #4a96dd;
+    
+    text-decoration-color: #ffffff;
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transition for color and underline */
+    
+}
+.contact-icon{
+    color:#e10000
+    width : 50px;
+    height: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+.contact-icon:hover{
+    transform: scale(1.2);
+    color:blue
+}
+#contact{
+    background-color: #6ac9f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width:auto;
+    height: 100px;
+    opacity: 0.75;
+}
